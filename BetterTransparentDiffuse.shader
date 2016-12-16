@@ -19,7 +19,7 @@ Shader "Game/Transparent/Diffuse (improved)" {
 
 			fixed4 _Color;
 
-			float4 vert(float4 vertex : POSITION) : SV_POSITION {
+			float4 vert(float4 vertex:POSITION) : SV_POSITION {
 				return mul(UNITY_MATRIX_MVP, vertex);
 			}
 
@@ -41,7 +41,7 @@ Shader "Game/Transparent/Diffuse (improved)" {
 		fixed4 _Color;
 
 		struct Input {
-			float4 color : COLOR;
+			float4 color:COLOR;
 			float2 uv_MainTex;
 		};
 
