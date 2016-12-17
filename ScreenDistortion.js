@@ -18,7 +18,7 @@ class ScreenDistortion extends PostEffectsBase {
 	/// Return true if this image effect is supported, false otherwise.
 	/// </summary>
 	function CheckResources():boolean {	
-	    CheckSupport(false);
+		CheckSupport(false);
 
 		m_distortionMaterial = CheckShaderAndCreateMaterial(DistortionShader, m_distortionMaterial);
 		
