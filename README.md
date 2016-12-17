@@ -6,6 +6,11 @@ BetterTransparentDiffuse.shader
 The default Unity shader for transparent objects suffers from some overlapping issues on complex objects (as seen on the left). This shader fixes the problem by rendering the object in two passes (the opaque center image is for reference).<br /> <br />
 ![Alt text](http://i.imgur.com/hdVh1cd.png "Transparent (improved)")
 
+Silhouette.shader
+------
+This simple two-pass shader renders a silhouette on top of all other geometry when occluded. We used this effect in Poi for objects that weren't marked as camera occluders so players would always be able to see the character.<br /> <br />
+![Alt text](http://i.imgur.com/SlbcsBo.png "Transparent (improved)")
+
 DiffuseTwoSided.shader
 ------
 Sometimes you want to render both sides of an object (for example, if it's not totally convex or perhaps it's an animated plane used for a flag). <br /> <br />
