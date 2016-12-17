@@ -1,9 +1,9 @@
 # Shaders
-A collection of shaders written in CG/ShaderLab for Unity.
+A collection of shaders written in CG/ShaderLab for Unity used in the development of Poi.
 
 BetterTransparentDiffuse.shader
 ------
-The default Unity shader for transparent objects suffers from some overlapping issues on complex objects. This shader fixes the problem by rendering the object in two passes. (Left: Unity default, Center: Opaque, Right: Better transparent<br /> <br />
+The default Unity shader for transparent objects suffers from some overlapping issues on complex objects. This shader fixes the problem by rendering the object in two passes. (left: default transparent, center: opaque, right: better transparent<br /> <br />
 ![Alt text](http://i.imgur.com/hdVh1cd.png "Transparent (improved)")
 
 DiffuseTwoSided.shader
