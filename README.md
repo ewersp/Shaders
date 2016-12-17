@@ -20,3 +20,4 @@ ScreenDistortion.shader
 ------
 This image effect takes a normal map as input and applies it to the screen as a post-process. The normal map will always be centered and scaled appropriately independent of aspect ratio and window resolution. We used this effect for the telescope item in Poi, but it would also work great for sniper scopes, etc.<br /> <br />
 ![Alt text](http://i.imgur.com/69SYsON.png "Screen Distortion")
+![Alt text](http://i.imgur.com/q8Gs5z2.png "Screen Distortion (in-game)")
