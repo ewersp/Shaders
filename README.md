@@ -9,7 +9,7 @@ The default Unity shader for transparent objects suffers from some overlapping i
 Silhouette.shader
 ------
 This simple two-pass shader renders a silhouette on top of all other geometry when occluded. We used this effect in Poi for objects that weren't marked as camera occluders so players would always be able to see the character.<br /> <br />
-![Alt text](http://i.imgur.com/SlbcsBo.png "Transparent (improved)")
+![Alt text](http://i.imgur.com/SlbcsBo.png "Silhouette")
 
 DiffuseTwoSided.shader
 ------
