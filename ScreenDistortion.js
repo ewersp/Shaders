@@ -9,8 +9,8 @@
 class ScreenDistortion extends PostEffectsBase {
 	public var DistortionTexture:Texture2D = null;
 	public var DistortionShader:Shader = null;
-	public var IntensityX:float = 0.05f;
-	public var IntensityY:float = 0.05f;
+	public var IntensityX:float = 0.05;
+	public var IntensityY:float = 0.05;
 
 	private var m_distortionMaterial:Material = null;	
 	
@@ -41,7 +41,7 @@ class ScreenDistortion extends PostEffectsBase {
 		
 		// Compute shader params
 		var aspectRatio = source.width / source.height;
-		var widthOffsetPixels = (source.width - source.height) / 2.0f;
+		var widthOffsetPixels = (source.width - source.height) / 2.0;
 		var widthOffsetPercent = widthOffsetPixels / source.width;
 
 		// Set shader params
