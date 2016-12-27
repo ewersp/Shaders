@@ -29,7 +29,7 @@ Shader "Game/Diffuse Two-Sided" {
 			v.normal = -v.normal;
 		}
 
-		void surf (Input IN, inout SurfaceOutput o) {
+		void surf(Input IN, inout SurfaceOutput o) {
 			fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * IN.color * _Color;
 			o.Albedo = c.rgb;
 			o.Alpha = 1.0;
@@ -50,7 +50,7 @@ Shader "Game/Diffuse Two-Sided" {
 			float2 uv_MainTex;
 		};
 
-		void surf (Input IN, inout SurfaceOutput o) {
+		void surf(Input IN, inout SurfaceOutput o) {
 			fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * IN.color * _Color;
 			o.Albedo = c.rgb;
 			o.Alpha = 1.0;
