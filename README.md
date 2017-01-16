@@ -3,7 +3,7 @@ A collection of shaders written in CG/ShaderLab for Unity used in the developmen
 
 BetterTransparentDiffuse.shader
 ------
-The default Unity shader for transparent objects suffers from some overlapping issues on complex objects (as seen on the left). This shader fixes the problem by rendering the object in two passes (the opaque center image is for reference).<br /> <br />
+The default Unity shader for transparent objects suffers from some overlapping issues on complex objects (as seen on the left). This shader fixes the problem by rendering the object in two passes (as seen on the right). The center opaque image is for reference.<br /> <br />
 ![Alt text](http://i.imgur.com/hdVh1cd.png "Transparent (improved)")
 
 Silhouette.shader
@@ -18,7 +18,7 @@ A basic shader to render a two-colored checkerboard pattern using the existing v
 
 DiffuseTwoSided.shader
 ------
-Sometimes you want to render both sides of an object (for example, if it's not totally convex or perhaps it's an animated plane used for a flag). <br /> <br />
+For rendering both sides of an object. For example if it's non-convex or an animated plane used for a flag/cloth, etc. <br /> <br />
 ![Alt text](http://i.imgur.com/aZl21ag.png "Diffuse two-sided")
 
 ScreenDistortion.shader
