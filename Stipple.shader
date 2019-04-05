@@ -2,14 +2,13 @@
 Shader "Game/Diffuse Transparent Stipple" {
 	Properties {
 		_MainTex("Base (RGB)", 2D) = "white" { }
-		_Cutoff("Alpha Cutoff", Range(0, 1)) = 0.0
 	}
 
 	SubShader {
-		Tags { "RenderType"="TransparentCutout" "Queue"="AlphaTest"  }
+		Tags { "RenderType"="Opaque" }
 
 		CGPROGRAM
-		#pragma surface surf Lambert addshadow alphatest:_Cutoff
+		#pragma surface surf Lambert addshadow
 
 		sampler2D _MainTex;
 
