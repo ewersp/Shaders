@@ -13,7 +13,7 @@ This simple two-pass shader renders a silhouette on top of all other geometry wh
 
 Stipple.shader
 ------
-TODO.<br /> <br />
+This cheap screen-door technique is useful for distance culling as it avoids traditional transparency sorting issues. Also useful if you need the extra performance.<br /> <br />
 ![Alt text](Assets/Stipple.gif "Stipple")
 
 Checkerboard.shader
