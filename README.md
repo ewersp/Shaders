@@ -11,6 +11,11 @@ Silhouette.shader
 This simple two-pass shader renders a silhouette on top of all other geometry when occluded. We used this effect in Poi for objects that weren't marked as camera occluders so players would always be able to see the character.<br /> <br />
 ![Alt text](http://i.imgur.com/SlbcsBo.png "Silhouette")
 
+Stipple.shader
+------
+TODO.<br /> <br />
+![Alt text](Assets/Stipple.gif "Stipple")
+
 Checkerboard.shader
 ------
 A basic shader to render a two-colored checkerboard pattern using the existing vertex UV coords. <br /> <br />
