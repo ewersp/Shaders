@@ -1,6 +1,8 @@
 # Shaders
 A collection of shaders written in CG/ShaderLab for Unity used in the development of Poi.
 
+Poi was shipped on Unity 5.5.3p1, but the shaders below have also been tested on Unity 2018.
+
 BetterTransparentDiffuse.shader
 ------
 The default Unity shader for transparent objects suffers from some overlapping issues on complex objects (as seen on the left in the following image). This shader fixes the problem by rendering the object in two passes (as seen on the right). The center opaque image is for reference.<br /> <br />
