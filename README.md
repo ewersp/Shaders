@@ -15,13 +15,15 @@ Stipple.shader
 ------
 This inexpensive screen-door transparency technique is useful for distance culling when traditional transparency is either too expensive or produces artifacts due to depth sorting. We used this on Poi to cull enemies when optimizing for lower-end hardware, specifically the Nintendo Switch.<br /> <br />
 <p align="center">
-	<img src="Assets/Stipple.gif" alt="Stipple">
+  <img src="Assets/Stipple.gif" alt="Stipple">
 </p>
 
 HeatHaze.shader
 ------
 We achieved this depth-aware heat haze effect in Poi by attaching this shader to a geosphere with inverted normals as a child of the primary game camera. This allowed us to easily animate the effect based on distance and didn't interfere with other post processing effects.<br /> <br />
-![Alt text](Assets/Heat.gif "Heat Haze")
+<p align="center">
+  <img src="Assets/Heat.gif" alt="Heat Haze">
+</p>
 
 Checkerboard.shader
 ------
