@@ -4,7 +4,7 @@ A collection of shaders written in CG/ShaderLab for Unity used in the developmen
 BetterTransparentDiffuse.shader
 ------
 The default Unity shader for transparent objects suffers from some overlapping issues on complex objects (as seen on the left). This shader fixes the problem by rendering the object in two passes (as seen on the right). The center opaque image is for reference.<br /> <br />
-![Alt text](Assets/Transparency.png "Transparent (improved)")
+![Alt text](Assets/Silhouette.png "Transparent (improved)")
 
 Silhouette.shader
 ------
