@@ -1,4 +1,4 @@
-﻿// This shader works best when attached to an inverted sphere childed to a camera
+﻿// This shader works best when rendered on a sphere with inverted normals as a child of the camera
 Shader "Game/HeatHaze" {
 	Properties {
 		_Distortion("Distortion", Float) = 0.5
