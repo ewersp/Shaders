@@ -4,12 +4,12 @@ A collection of shaders written in CG/ShaderLab for Unity used in the developmen
 BetterTransparentDiffuse.shader
 ------
 The default Unity shader for transparent objects suffers from some overlapping issues on complex objects (as seen on the left). This shader fixes the problem by rendering the object in two passes (as seen on the right). The center opaque image is for reference.<br /> <br />
-![Alt text](Assets/Silhouette.png "Transparent (improved)")
+![Alt text](Assets/Transparent.png "Transparent (improved)")
 
 Silhouette.shader
 ------
 This simple two-pass shader renders a silhouette on top of all other geometry when occluded. We used this effect in Poi for objects that weren't marked as camera occluders so players would always be able to see the character.<br /> <br />
-![Alt text](Assets/TwoSided.png "Silhouette")
+![Alt text](Assets/Silhouette.png "Silhouette")
 
 Stipple.shader
 ------
