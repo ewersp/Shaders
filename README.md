@@ -13,8 +13,13 @@ This simple two-pass shader renders a silhouette on top of all other geometry wh
 
 Stipple.shader
 ------
-This cheap screen-door technique is useful for distance culling as it avoids traditional transparency sorting issues. Also useful if you need the extra performance.<br /> <br />
+This inexpensive screen-door transparency technique is useful for distance culling when traditional transparency is either too expensive or produces artifacts due to depth sorting. We used this on Poi to cull enemies when optimizing for lower end hardware and consoles.<br /> <br />
 ![Alt text](Assets/Stipple.gif "Stipple")
+
+HeatHaze.shader
+------
+We achieved this depth-aware heat haze effect in Poi by attaching this shader to a geosphere with inverted normals as a child of the primary game camera. This allowed us to easily animate the effect based on distance and didn't interfere with other post processing effects.<br /> <br />
+![Alt text](Assets/HeatHaze.gif "Heat Haze")
 
 Checkerboard.shader
 ------
