@@ -13,7 +13,7 @@ This simple two-pass shader renders a silhouette on top of all other geometry wh
 
 Stipple.shader
 ------
-This inexpensive screen-door transparency technique is useful for distance culling when traditional transparency is either too expensive or produces artifacts due to depth sorting. We used this on Poi to cull enemies when optimizing for lower end hardware and consoles.<br /> <br />
+This inexpensive screen-door transparency technique is useful for distance culling when traditional transparency is either too expensive or produces artifacts due to depth sorting. We used this on Poi to cull enemies when optimizing for lower-end hardware, specifically the Nintendo Switch.<br /> <br />
 ![Alt text](Assets/Stipple.gif "Stipple")
 
 HeatHaze.shader
