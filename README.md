@@ -22,7 +22,7 @@ This inexpensive screen-door transparency technique is useful for distance culli
 
 HeatHaze.shader
 ------
-We achieved this depth-aware heat haze effect in Poi by attaching this shader to a geosphere with inverted normals as a child of the primary game camera. This allowed us to easily animate the effect based on distance and didn't interfere with other post-processing effects.<br /> <br />
+We achieved this depth-aware heat haze effect in Poi by attaching this shader to a geosphere with inverted normals as a child of the camera. This allowed us to easily animate the effect based on distance and didn't interfere with other post-processing effects.<br /> <br />
 <p align="center">
   <img src="Assets/Heat.gif" alt="Heat Haze">
 </p>
