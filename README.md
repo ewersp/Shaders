@@ -49,3 +49,10 @@ This is another basic shader that renders both sides of an object while accounti
 This image effect takes a normal map as input and applies it to the screen as a post-process. The normal map will always be centered and scaled appropriately independent of aspect ratio and window resolution. We used this effect for the telescope item in Poi, but it would also work for weapons, binoculars, etc.<br /> <br />
 ![Alt text](Assets/Distort.png "Screen Distortion")
 ![Alt text](Assets/Distort2.png "Screen Distortion (in-game)")
+
+---
+
+### [ScrollingSprite.shader](ScrollingSprite.shader)
+This shader extends Unity's default Sprite shader to allow for scrolling texture offsets. For non-Sprite shaders (eg: Renderer), this can already be accomplished by modifying material.mainTextureOffset, but unfortunately this does not work for SpriteRenderer. <br /> <br />
+![Alt text](Assets/ScrollingSprite.gif "Scrolling Sprite")
+
