@@ -53,7 +53,7 @@ This image effect takes a normal map as input and applies it to the screen as a 
 ---
 
 ### [ScrollingSprite.shader](ScrollingSprite.shader)
-This shader extends Unity's default Sprite shader to allow for scrolling texture offsets. For non-Sprite shaders (eg: Renderer), this can already be accomplished by modifying material.mainTextureOffset, but unfortunately this does not work for SpriteRenderer. <br /> <br />
+This shader extends Unity's default Sprite shader to allow for scrolling texture offsets. For non-Sprite shaders (eg: `Renderer` components), this can already be accomplished by modifying `material.mainTextureOffset`, but unfortunately this does not work for `SpriteRenderer` components, hence the need for this new shader.<br /> <br />
 <p align="center">
   <img src="Assets/ScrollingSprite.gif" alt="Scrolling Sprite">
 </p>
