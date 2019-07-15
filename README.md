@@ -57,7 +57,7 @@ This shader extends Unity's default Sprite shader to allow for scrolling texture
 <p align="center">
   <img src="Assets/ScrollingSprite.gif" alt="Scrolling Sprite">
   <br /><br />
-  <kbd><img src="Assets/ScrollingSpriteTile.png" /></kbd>
+  <kbd><img src="Assets/ScrollingSprite.png" /></kbd>
 </p>
 
 
